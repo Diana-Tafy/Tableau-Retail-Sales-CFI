@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau Sales Dashboard</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 30px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #0f172a;
+      margin-bottom: 20px;
+    }
+    .container {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 1040px;
+    }
+    iframe {
+      width: 100%;
+      height: 850px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
 
+  <h1>Executive Retail Sales Dashboard</h1>
+
+  <div class="container">
+    <iframe 
+      src="https://public.tableau.com/views/TableauSalesDashboard_17855082454470/TableauSalesDashboard?:showVizHome=no&:embed=true"
+      title="Tableau Sales Dashboard">
+    </iframe>
+  </div>
+
+</body>
+</html>
